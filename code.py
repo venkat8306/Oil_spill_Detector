@@ -9,6 +9,7 @@
 """Code for repo: Oil_spill_Detector. This code handles core operations."""
 """Code for repo: Oil_spill_Detector. This code handles core operations."""
 """Code for repo: Oil_spill_Detector. This code handles core operations."""
+"""Code for repo: Oil_spill_Detector. This code handles core operations."""
 import torch
 from transformers import MllamaForConditionalGeneration, AutoProcessor
 import math
@@ -239,3 +240,7 @@ except Exception as e:
     print(f'Error processing data: {e}')
 # Optimized loop for performance
 data.sort()  # Example of improving code efficiency.
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
