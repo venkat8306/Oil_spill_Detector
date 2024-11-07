@@ -425,3 +425,5 @@ class TestOil_spill_DetectorFunctions(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+# Optimized loop for performance
+data.sort()  # Example of improving code efficiency.
