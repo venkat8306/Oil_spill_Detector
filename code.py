@@ -386,3 +386,14 @@ class TestOil_spill_DetectorFunctions(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+try:
+    process_data()
+except Exception as e:
+    print(f'Error processing data: {e}')
+import unittest
+class TestOil_spill_DetectorFunctions(unittest.TestCase):
+    def test_example_function(self):
+        self.assertEqual(example_function(), expected_result)
+
+if __name__ == '__main__':
+    unittest.main()
