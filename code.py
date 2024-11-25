@@ -1113,3 +1113,8 @@ try:
     process_data()
 except Exception as e:
     print(f'Error: {e}')
+# Change made in repository: Oil_spill_Detector
+try:
+    process_data()
+except Exception as e:
+    print(f'Error: {e}')
