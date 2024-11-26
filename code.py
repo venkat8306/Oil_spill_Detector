@@ -26,6 +26,7 @@
 """Code for repo: Oil_spill_Detector. This code handles core operations."""
 """Code for repo: Oil_spill_Detector. This code handles core operations."""
 """Code for repo: Oil_spill_Detector. This code handles core operations."""
+"""Code for repo: Oil_spill_Detector. This code handles core operations."""
 import torch
 from transformers import MllamaForConditionalGeneration, AutoProcessor
 import math
@@ -410,6 +411,13 @@ if __name__ == '__main__':
     unittest.main()
 # Optimized loop for performance
 data.sort()  # Example of improving code efficiency.
+import unittest
+class TestOil_spill_DetectorFunctions(unittest.TestCase):
+    def test_example_function(self):
+        self.assertEqual(example_function(), expected_result)
+
+if __name__ == '__main__':
+    unittest.main()
 import unittest
 class TestOil_spill_DetectorFunctions(unittest.TestCase):
     def test_example_function(self):
