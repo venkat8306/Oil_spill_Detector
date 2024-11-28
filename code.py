@@ -1,3 +1,4 @@
+"""Code for repo: Oil_spill_Detector. This code handles core operations."""
 import torch
 from transformers import MllamaForConditionalGeneration, AutoProcessor
 import math
@@ -104,3 +105,10 @@ output = model.generate(
 
 response = processor.decode(output[0], skip_special_tokens=True).strip()
 print(f"Region {region['Label']} analysis:\n{response}")
+import unittest
+class TestOil_spill_DetectorFunctions(unittest.TestCase):
+    def test_example_function(self):
+        self.assertEqual(example_function(), expected_result)
+
+if __name__ == '__main__':
+    unittest.main()
